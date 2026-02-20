@@ -4,7 +4,6 @@ print('Hey Guys')
 
 
 Username=input('Username:')
-Character_name="Bob"
 points=10
 tasks_total=10
 tasks_completed=6
@@ -15,5 +14,5 @@ while points>=next_level:
     level=level+1
     next_level=next_level*1.2
 
-print(Character_name+ " is level " +str(level)+ ' !')
+print(Username+ " is level " +str(level)+ ' !')
 print("Tasks left:" +str(tasks_left))
