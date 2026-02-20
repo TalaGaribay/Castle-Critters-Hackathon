@@ -14,9 +14,5 @@ while points>=next_level:
     level=level+1
     next_level=next_level*1.2
 
-<<<<<<< HEAD
 print(Username+ " is level " +str(level)+ '!')
-=======
-print(Username+ " is level " +str(level)+ '!')
->>>>>>> a2e1874e78830ef4a9e69eff6fdf073cc5968faf
 print("Tasks left:" +str(tasks_left))
